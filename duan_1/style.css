@@ -1,0 +1,680 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.header-main-top {
+    height: 50px;
+    background-image: radial-gradient(circle at top right, #0d44b0, rgb(74, 110, 229), #5954da);
+    max-width: 100%;
+}
+
+.section-main {
+    position: relative;
+}
+
+.section-ship {
+    line-height: 50px;
+    max-width: 100%;
+}
+
+.section-ship a,
+.section-ship span {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-ship:hover a {
+    color: #53ad12;
+}
+
+/* header-icon */
+.header-icon ul {
+    position: absolute;
+    right: 0;
+    line-height: 50px;
+}
+
+.header-icon ul li {
+    line-height: 10px;
+    padding: 0 13px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header-icon ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-icon ul li:hover a {
+    color: #53ad12;
+}
+
+/* header nav */
+.header-nav {
+    height: 100px;
+}
+
+.nav-main {
+    position: relative;
+}
+
+.nav-logo img {
+    height: 100px;
+    margin-right: 50px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: #bab8b8;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav>ul>li>a:hover {
+    color: #53ad12;
+}
+
+/* nav-icon */
+.nav-icon {
+    position: absolute;
+    right: 0;
+}
+
+.nav-icon ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-icon ul>li>a:hover {
+    color: #53ad12;
+}
+
+.nav-icon li:hover .sub-nav {
+    display: block;
+}
+
+/* header banner */
+.banner img {
+    max-width: 100%;
+}
+
+.header-banner {
+    position: relative;
+
+}
+
+.header-banner .banner-angle-left {
+    line-height: 550px;
+    z-index: 1;
+    margin-left: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-banner .banner-angle-right {
+    line-height: 550px;
+    z-index: 1;
+    margin-right: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-banner .section-text {
+    position: absolute;
+    top: 0;
+}
+
+.section-text div {
+    height: 100px;
+    width: 270px;
+    text-align: center;
+    margin: 20px 0 10px 600px;
+}
+
+.section-shop-now {
+    margin: 150px 0 10px 670px;
+    text-align: center;
+}
+
+.header-banner .section-shop-now a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.header-banner .section-shop-now {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 130px;
+    background: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.header-banner .section-shop-now:hover {
+    background: #53ad12;
+}
+
+.section-text h3 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.section-text h4 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.section-text p {
+    color: #fff;
+}
+
+/* phần main chính */
+.section-main {
+    width: 100%;
+}
+
+.section-main h3 {
+    margin: 50px 0 20px 0;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-main .p-line {
+    width: 100px;
+    margin: auto;
+    border-bottom: 3px solid #5b5959;
+}
+
+.product-portfolio {
+    margin: 20px 0 0 5px;
+    border: 2px solid #dfdcdc;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product-portfolio a {
+    text-decoration: none;
+    color: #1b1919;
+    font-weight: 500;
+}
+
+.product-portfolio:hover,
+.product-portfolio:hover a {
+    font-weight: 400;
+    color: #fff;
+    background: rgb(42, 107, 206);
+}
+
+/* phần sản thông tin các sản phẩm */
+.products-list {
+    width: 100%;
+    margin-top: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-items {
+    height: 350px;
+    width: 24%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-items img {
+    height: 250px;
+    width: 220px;
+    background: #dddbdb;
+}
+
+.product-text {
+    margin-bottom: 0;
+}
+
+.product-items .product-text a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #6b6969;
+    font-weight: 500;
+}
+
+.product-items .product-price a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1b1919;
+    font-weight: 500;
+}
+
+.rating .star {
+    color: rgb(209, 209, 29);
+}
+
+/* .product-items .add-cart {
+    height: 30px;
+    width: 160px;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 0 5px;
+    font-weight: 500;
+    background: rgb(0, 0, 0, 0.1);
+    text-align: center;
+} */
+
+.product-items .add-cart a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #414040
+}
+
+.product-items:hover .add-cart {
+    bottom: 110px;
+}
+
+/* phần slider */
+.section-slider {
+    margin: 0 160px;
+}
+
+.section-slider .slider-left {
+    height: 290px;
+    width: 470px;
+    border: 1px solid #dfdcdc;
+    background: url(img/Ghế\ sofa\ gỗ\ giá\ rẻ.jpeg);
+    background-repeat: no-repeat;
+    background-size: 470px 290px;
+}
+
+.slider-left-text {
+    height: 120px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.slider-left-text button {
+    border-radius: 1px;
+    padding: 1px 7px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #a17a0f;
+}
+
+.section-slider .slider-right {
+    height: 290px;
+    width: 470px;
+    margin: 0 0 0 24px;
+    border: 1px solid #dfdcdc;
+    background: url(img/Premium\ Photo\ _\ Modern\ living\ room\ interior\ with\ sofa\ and\ green\ plants\,lamp\,table\ on\ green\ wall\ background_.jpeg);
+    background-repeat: no-repeat;
+    background-size: 470px 290px;
+}
+
+.slider-right-text {
+    height: 120px;
+    width: 250px;
+    text-align: center;
+}
+
+
+
+.slider-right-text button {
+    border-radius: 1px;
+    padding: 1px 7px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #a17a0f;
+}
+
+.slider-right-text:hover button {
+    background: #53ad12;
+}
+
+.slider-left-text:hover button {
+    background: #53ad12;
+}
+
+/* phần footer */
+body footer {
+    border-top: none;
+    background: #E6E3DF;
+    width: 100%;
+    margin: 1.25rem 0 0;
+    padding: 0 1.25rem 1.25rem;
+}
+
+body footer section {
+    flex-flow: row wrap;
+}
+
+body footer h2,
+body footer h3 {
+    margin: 1.5rem 0 0 0;
+    font-size: .7125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: inherit;
+}
+
+body footer li {
+    list-style: none;
+    color: #333;
+    font-size: .7125rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    width: auto;
+}
+
+.footer-heading a {
+    font-weight: 600;
+}
+
+body footer li a {
+    font-weight: 400;
+}
+
+body footer .footer-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body footer .social-icons {
+    flex: 0 0 21rem;
+    max-width: unset;
+}
+
+body footer .footer-email-text {
+    font-size: .7125rem;
+    margin: 1.5rem 0;
+    width: auto;
+}
+
+.hiden {
+    height: 1px;
+    width: 1px;
+    text-indent: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+body footer form [type="email"] {
+    border: none;
+    padding: 0.425rem;
+    width: 70%;
+    font-size: .875rem;
+    font-family: Arial;
+    border: 1px solid #000;
+}
+
+body footer .footer-email-sign-up {
+    margin-bottom: 40px;
+}
+
+body footer form .Submit {
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+    background-color: #010101;
+    font-size: 9px;
+    line-height: 5;
+    padding: 0 2em;
+    text-transform: uppercase;
+}
+
+body footer form .Submit a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .footer-fanacials a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer-fanacials {
+    margin-bottom: 20px;
+    font-size: .7125rem;
+    min-width: auto;
+    display: block;
+    font-family: inherit;
+    color: inherit;
+}
+
+p.social-icons {
+    font-size: .7125rem;
+    display: inline-block;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+ul.social-icons-list {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.social-icons-list ul li {
+    color: #333;
+    font-size: .7125rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-family: inherit;
+    width: auto;
+}
+
+footer .footer-list {
+    margin-bottom: 17px;
+}
+
+.footer-list ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer-legal .text-section p {
+    color: #333;
+    font-size: .7125rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-family: inherit;
+    width: auto;
+}
+
+.footer-legal .text-section p a {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* Khách sạn tìm kiếm */
+.main-nav {
+    background-image: radial-gradient(circle at top right, #0d44b0, rgb(74, 110, 229), #5954da);
+    height: 50px;
+    text-align: center;
+}
+
+.nav-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-search-address,
+.main-address,
+.main-room,
+.main-search {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* phần animation */
+.section-ship a {
+    font-weight: 500;
+    animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+    50% {
+        color: rgb(187, 199, 23);
+    }
+
+    75% {
+        color: #53ad12
+    }
+}
+
+.nav-icon .sub-nav {
+    position: absolute;
+    padding: 0;
+    background-color: #ccc8c8;
+    z-index: 1;
+    width: 100px;
+    display: none;
+}
+
+
+.nav-icon .sub-nav>li {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-icon .sub-nav>li:hover {
+    color: #000;
+}
+
+.nav-icon .sub-nav>li>a {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 360px;
+    min-height: 100px;
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    background: rgba(255, 255, 255, 0.371);
+}
+
+.form .heading {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.check-box {
+    margin-right: 150px;
+}
+
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #a09b9b;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: #4c4e4d;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.spacer {
+    margin-top: 36px;
+}
+
+.forgot-password-text-decoration a,
+.form-group-text a {
+    text-decoration: underline;
+    color: #333;
+}

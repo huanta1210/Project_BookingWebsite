@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-header a,
+.sections-form a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease-in-out;
+    font-size: 0.8571rem;
+    font-weight: 500;
+}
+
+.main-header ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 70px;
+    width: 70px;
+}
+
+.main-header .chervon-icons {
+    font-size: 0.8571rem;
+    color: rgb(175, 172, 172);
+    padding: 0 0 0 5px;
+}
+
+.main-header .logo h1 {
+    font-weight: normal;
+    margin: 0;
+    line-height: 1em;
+}
+
+.main-header ul li {
+    display: inline-block;
+    padding: 0 5px 0 2px;
+}
+
+.main-header .shipping {
+    font-weight: 500;
+    color: #4d4d4d;
+    font-size: 0.8571rem;
+}
+
+.main-header .payments-method {
+    font-weight: 500;
+    color: #b5b1b1;
+    font-size: 0.8571rem;
+}
+
+.step-section .section-header h2 {
+    font-size: 1.28571rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.section-text {
+    margin-bottom: 0.8125rem;
+}
+
+.field-input select {
+    margin: 20px 20px 0 0;
+    box-shadow: 0 0 0 1px #d9d9d9;
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #333333;
+    border-radius: 4px;
+    width: 45%;
+    padding: 0.73em 2.5em 0.54em 0.8em;
+    float: left;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space-collapse: collapse;
+    text-wrap: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+
+.form-submit {
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 1.0em 1.7em;
+    text-align: center;
+    background: #000;
+    color: white;
+    border: none;
+}
+
+.form-submit:hover {
+    border: 2px solid #000;
+    background: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+.form {
+    width: 100%;
+    min-height: 100px;
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    font-size: 12px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group.horizontal {
+    flex-direction: row;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+
+.form-control {
+    height: 40px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.form-control:hover,
+.text-sale:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border: 2px solid #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 0.8125rem;
+    line-height: 1.6rem;
+}
+
+.form-submit:hover {
+    background-color: #fff;
+}
+
+.product-table thead tr {
+    display: none;
+}
+
+.order {
+    margin: 20px 0;
+}
+
+.side-bar {
+    margin-top: 20px;
+}
+
+.thumb {
+    position: relative;
+    height: 80px;
+    width: 70px;
+    border: 1px solid #dcd9d9;
+    border-radius: 3px;
+}
+
+.product-thumb {
+    position: absolute;
+    top: -10px;
+    right: -13px;
+    bottom: 0;
+    background-color: #bebcbc;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.product-text,
+.product-price {
+    padding-left: 10px;
+}
+
+.product-text p {
+    font-size: 0.7125rem;
+    color: rgb(168, 164, 164);
+}
+
+.text-sale {
+    width: 60%;
+    height: 40px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1rem;
+    line-height: 40px;
+    padding: 10px;
+}
+
+.submit {
+    width: 30%;
+    margin-top: -40px;
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 0.5em 1.7em;
+    text-align: center;
+    background: #000;
+    color: white;
+    border: none;
+    float: right;
+}
+
+table {
+    width: 100%;
+    font-size: 1em;
+}
+
+td:first-child {
+    font-size: 1.1rem;
+    color: #817f7f;
+}
+
+td:last-child {
+    font-size: 1.2rem;
+    color: #b3b3b3;
+    text-align: right;
+}

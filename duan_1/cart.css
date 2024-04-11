@@ -1,0 +1,391 @@
+.header-main-top {
+    height: 50px;
+    background: #000;
+}
+
+.section-main {
+    position: relative;
+}
+
+.section-ship {
+    line-height: 50px;
+}
+
+.section-ship a,
+.section-ship span {
+    text-decoration: none;
+    color: #fff;
+}
+
+.section-ship:hover a {
+    color: #53ad12;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+}
+
+/* header-icon */
+.header-icon ul {
+    position: absolute;
+    right: 0;
+    line-height: 50px;
+}
+
+.header-icon ul li {
+    line-height: 10px;
+    padding: 0 13px;
+    list-style: none;
+    display: inline-block;
+}
+
+.header-icon ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-icon ul li:hover a {
+    color: #53ad12;
+}
+
+/* header nav */
+.header-nav {
+    height: 100px;
+}
+
+.nav-main {
+    position: relative;
+}
+
+.nav-logo img {
+    height: 100px;
+    margin-right: 50px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul li:hover a {
+    color: #53ad12;
+}
+
+/* nav-icon */
+.nav-icon {
+    position: absolute;
+    right: 0;
+}
+
+.nav-icon ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-icon ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-icon ul li:hover a {
+    color: #53ad12;
+}
+
+.cart-main {
+    margin: 0 20px;
+}
+
+.form {
+    width: 50%;
+    overflow: auto;
+}
+
+.cart-row {
+    position: relative;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #e6e6e6;
+}
+
+.cart-text {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+.cart-text .small {
+    font-size: 0.9rem;
+    color: #626060;
+    font-weight: 400;
+}
+
+.cart-text a {
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.cart-table {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cart-table .cart-row tr th,
+.cart-table .cart-row tr td {
+    padding: 30px 15px;
+    font-weight: 400;
+}
+
+.count input.apart-btn,
+.count input.add-btn {
+    float: left;
+    background: #f5f5f5;
+    border: solid 1px #aca8a8;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    outline: none;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 2;
+}
+
+.count input#quantity {
+    background: #fff;
+    font-weight: 600;
+    height: 32px;
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70px;
+    border: 1px solid #f5f5f5;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+    float: left;
+}
+
+.grid-item {
+    float: left;
+    min-height: 1px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.grid-item h6 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #414040;
+}
+
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 60%;
+    border: 1px solid #bcb9b9;
+}
+
+.grid-items {
+    text-align: right;
+}
+
+.grid-items .text-right {
+    margin: -120px 120px;
+}
+
+.grid-items .text-bottom {
+    margin: 120px 0 100px 0;
+}
+
+#btn {
+    background-color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: -170px;
+}
+
+body footer {
+    border-top: none;
+    background: #E6E3DF;
+    width: 100%;
+    margin: 1.25rem 0 0;
+    padding: 0 1.25rem 1.25rem;
+}
+
+body footer section {
+    flex-flow: row wrap;
+}
+
+body footer h2,
+body footer h3 {
+    margin: 1.5rem 0 0 0;
+    font-size: .7125rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: inherit;
+}
+
+body footer li {
+    list-style: none;
+    color: #333;
+    font-size: .7125rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    width: auto;
+}
+
+.footer-heading a {
+    font-weight: 600;
+}
+
+body footer li a {
+    font-weight: 400;
+}
+
+body footer .footer-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body footer .social-icons {
+    flex: 0 0 21rem;
+    max-width: unset;
+}
+
+body footer .footer-email-text {
+    font-size: .7125rem;
+    margin: 1.5rem 0;
+    width: auto;
+}
+
+.hiden {
+    height: 1px;
+    width: 1px;
+    text-indent: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+body footer form [type="email"] {
+    border: none;
+    padding: 0.425rem;
+    width: 70%;
+    font-size: .875rem;
+    font-family: Arial;
+    border: 1px solid #000;
+}
+
+body footer .footer-email-sign-up {
+    margin-bottom: 40px;
+}
+
+body footer form .Submit {
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+    background-color: #010101;
+    font-size: 9px;
+    line-height: 5;
+    padding: 0 2em;
+    text-transform: uppercase;
+}
+
+body footer form .Submit a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .footer-fanacials a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.footer-fanacials {
+    margin-bottom: 20px;
+    font-size: .7125rem;
+    min-width: auto;
+    display: block;
+    font-family: inherit;
+    color: inherit;
+}
+
+p.social-icons {
+    font-size: .7125rem;
+    display: inline-block;
+    margin: 0 0 15px 0;
+    font-weight: 600;
+}
+
+ul.social-icons-list {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.social-icons-list ul li {
+    color: #333;
+    font-size: .7125rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-family: inherit;
+    width: auto;
+}
+
+footer .footer-list {
+    margin-bottom: 17px;
+}
+
+.footer-list ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.footer-legal .text-section p {
+    color: #333;
+    font-size: .7125rem;
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    font-family: inherit;
+    width: auto;
+}
+
+.footer-legal .text-section p a {
+    text-decoration: underline;
+    color: #333;
+}
+
+/* phần animation */
+.section-ship a {
+    font-weight: 500;
+    animation: changeColor 2s infinite alternate;
+}
+
+@keyframes changeColor {
+    50% {
+        color: rgb(187, 199, 23);
+    }
+
+    75% {
+        color: #53ad12
+    }
+}

@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.main .nav {
+    height: 50px;
+    background-color: #000033;
+}
+
+.nav a {
+    line-height: 57px;
+    margin: 0 50px 0 0;
+    text-decoration: none;
+}
+
+.nav a .fa-sign-in:hover {
+    color: #ffff00;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.fa-sign-in {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.box-left {
+    background-color: #000033;
+}
+
+.image {
+    text-align: center;
+    color: #fff;
+}
+
+.mb {
+    margin-bottom: 50px;
+}
+
+.image .line {
+    width: 96%;
+    border-bottom: 1px solid #00CC33;
+    margin: auto;
+}
+
+.box-left .image-admin {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.box-left .list-categories ul li {
+    margin: 5px 0 0 10px;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+.box-left .list-categories ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.active {
+    border-radius: 10px;
+    color: #000;
+    background-color: #ffff00;
+}
+
+.box-left .list-categories ul li:hover {
+    background-color: #6495ED;
+    border-radius: 10px;
+}
+
+.box-right {
+    background-color: rgb(211, 208, 208);
+}
+
+.box-right-margin {
+    padding: 10px 10px 0 10px;
+
+}
+
+
+
+.box-right .header {
+    height: 40px;
+    border-radius: 8px;
+    background-color: #fff;
+    border-left: 5px solid #ffff00;
+    margin-bottom: 10px;
+}
+
+.box-right .header h5 {
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 38px;
+}
+
+.box-right .main-top {
+    border-radius: 8px;
+    background-color: #fff;
+
+}
+
+.main-header-title .title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ffff00;
+
+}
+
+
+
+.main-table {
+    padding-bottom: 20px;
+}
+
+.main-table a {
+    text-decoration: none;
+    padding: 5px;
+    background-color: #00CC33;
+    border-radius: 5px;
+    color: #000;
+}
+
+.main-table-title .line {
+    margin-top: 10px;
+    border-bottom: 1px solid #aeacac;
+    width: 100%;
+}
+
+.main-table-title a:hover,
+.main-table-title a input[type="button"]:hover {
+    background-color: #ffff00;
+    color: #000;
+}
+
+.main-table-title a input[type="button"] {
+    border: none;
+    background-color: #00CC33;
+}
+
+.main-table table {
+    margin-top: 20px;
+}
+
+.main-table {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.main-table table input[type="button"] {
+    border: none;
+    background-color: #00CC33;
+}
+
+.main-table table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main-table table .delete,
+.main-table table .delete input[type="button"] {
+    background-color: red;
+}
+
+.main-table table .delete:hover,
+.main-table table .delete input[type="button"]:hover,
+.main-table table .update:hover,
+.main-table table .update input[type="button"]:hover {
+    background-color: #ffff00;
+}
+
+.main-table table .update,
+.main-table table .update input[type="button"] {
+    background-color: #1C86EE;
+}
+
+.main-table table tr,
+th,
+td {
+    border: 1px solid #aeb0b3;
+    padding: 10px;
+}
+
+table {
+    padding: 10px 10px 0 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.form-group label {
+    font-weight: 700;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    border: none;
+    border: 1px solid #aeacac;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.form-group input[type="date"] {
+    border: none;
+    border: 1px solid #aeacac;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+.form-group input[type="button"],
+.form-group input[type="reset"],
+.form-group a input[type="button"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #aeacac;
+    font-weight: 500;
+}
+
+.form-group input[type="file"] {
+    border-radius: 5px;
+    border-color: #aeacac;
+}
+
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border: 1px solid #21ca21;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+.form-group input[type="button"]:hover {
+    border: none;
+    background-color: #ffff00;
+}
+
